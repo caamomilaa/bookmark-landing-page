@@ -2,23 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="shortcut icon" href="./assets/images/" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>bookmark-landing-page</title>
   </head>
   <body>
-    <div class="card">
-      <h1 class="card__title">Título</h1>
-      <p class="card__text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quis
-        mollitia sequi, quae voluptatem, eligendi, nam repudiandae cupiditate ad
-        consequatur natus omnis ducimus pariatur excepturi in magni voluptas
-        repellat quasi?
-      </p>
-      <a class="card__button" href="">boton</a>
-    </div>
+    <header class="header">
+      <div class="header__top">
+        <img class="logo" src="./assets/images/logo-bookmark.svg" alt="logo">
+        <a class="button-menu" id="button-menu">
+          <img src="./assets/images/icon-hamburger.svg" alt="hamburguer" />
+        </a>
+        <nav>
+          <ul id="menu" class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">FEATURES</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">PRICING</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">CONTACT</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--border" href="#">LOGIN</a>
+            </li>
+          </ul>
+          <div class="social-media">
+            <a class="sm-icon" href="#">
+              <img class="fb-icon" src="./assets/images/icon-facebook.svg" alt="facebook">
+            </a>
+            <a class="sm-icon" href="#">
+              <img class="tw-icon" src="./assets/images/icon-twitter.svg" alt="facebook">
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
